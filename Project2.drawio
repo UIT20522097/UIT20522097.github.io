@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T20:51:21.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="XFneDlj37zrGSAdEo3Et" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T21:07:55.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="k7Syd6BZN29iQkBU_4jX" version="22.0.3" type="github">
   <diagram name="Trang-1" id="3_6U2CW1ttcesMZcghQB">
-    <mxGraphModel dx="2390" dy="1317" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0iWPIHCjYhFMQeC12Vsf-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-servers-web-hosting/50/cloud-web-hosting-128.png" vertex="1" parent="1">
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="370" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-2" value="Cloud Server" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/whcompare-servers-web-hosting/50/cloud-web-hosting-128.png" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="0iWPIHCjYhFMQeC12Vsf-8" value="" style="endArrow=classic;html=1;entryX=-0.049;entryY=0.451;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0iWPIHCjYhFMQeC12Vsf-2" target="0iWPIHCjYhFMQeC12Vsf-14">
@@ -28,14 +31,8 @@
             <mxPoint x="329" y="206" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0iWPIHCjYhFMQeC12Vsf-14" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/IoT_Edge.svg;" vertex="1" parent="1">
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-14" value="Gateway / Edge Server" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/IoT_Edge.svg;" vertex="1" parent="1">
           <mxGeometry x="260" y="172" width="68" height="68" as="geometry" />
-        </mxCell>
-        <mxCell id="0iWPIHCjYhFMQeC12Vsf-15" value="Gateway / Edge Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="219" y="248" width="150" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="0iWPIHCjYhFMQeC12Vsf-17" value="Cloud Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="79" y="150" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0iWPIHCjYhFMQeC12Vsf-26" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="432" y="270" width="291" height="78" as="geometry" />
@@ -83,6 +80,39 @@
             <Array as="points">
               <mxPoint x="682" y="200" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-85" value="Gateway / Edge Server" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/iot/IoT_Edge.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="520" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-86" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="240" y="585" as="sourcePoint" />
+            <mxPoint x="380" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-89" value="Web-Client" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=telepresence_endpoint_twin_data_display;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
+          <mxGeometry x="397" y="477.5" width="64" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-90" value="Database" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/database.svg;" vertex="1" parent="1">
+          <mxGeometry x="534" y="607.5" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-96" value="Nodes" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Edge_Management.svg;" vertex="1" parent="1">
+          <mxGeometry x="657" y="468.5" width="66" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0iWPIHCjYhFMQeC12Vsf-100" target="0iWPIHCjYhFMQeC12Vsf-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-100" value="Edge Server" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
+          <mxGeometry x="535.2" y="460" width="47.6" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0iWPIHCjYhFMQeC12Vsf-100" target="0iWPIHCjYhFMQeC12Vsf-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-105" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0iWPIHCjYhFMQeC12Vsf-100" target="0iWPIHCjYhFMQeC12Vsf-96">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="307" y="512.5" as="sourcePoint" />
+            <mxPoint x="357" y="462.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
