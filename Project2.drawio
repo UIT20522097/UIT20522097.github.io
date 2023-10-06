@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-06T21:07:55.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="k7Syd6BZN29iQkBU_4jX" version="22.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-06T21:08:33.740Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="xsnkrfnPEVMTkUTFg3oU" version="22.0.3" type="github">
   <diagram name="Trang-1" id="3_6U2CW1ttcesMZcghQB">
-    <mxGraphModel dx="1366" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -87,8 +87,8 @@
         </mxCell>
         <mxCell id="0iWPIHCjYhFMQeC12Vsf-86" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="240" y="585" as="sourcePoint" />
-            <mxPoint x="380" y="585" as="targetPoint" />
+            <mxPoint x="230" y="584" as="sourcePoint" />
+            <mxPoint x="370" y="584" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="0iWPIHCjYhFMQeC12Vsf-89" value="Web-Client" style="sketch=0;points=[[0.015,0.015,0],[0.985,0.015,0],[0.985,0.985,0],[0.015,0.985,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];verticalLabelPosition=bottom;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.rect;prIcon=telepresence_endpoint_twin_data_display;fillColor=#FAFAFA;strokeColor=#005073;" vertex="1" parent="1">
@@ -106,13 +106,16 @@
         <mxCell id="0iWPIHCjYhFMQeC12Vsf-100" value="Edge Server" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/generic_server.svg;" vertex="1" parent="1">
           <mxGeometry x="535.2" y="460" width="47.6" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="0iWPIHCjYhFMQeC12Vsf-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0iWPIHCjYhFMQeC12Vsf-100" target="0iWPIHCjYhFMQeC12Vsf-89">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="0iWPIHCjYhFMQeC12Vsf-105" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0iWPIHCjYhFMQeC12Vsf-100" target="0iWPIHCjYhFMQeC12Vsf-96">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="307" y="512.5" as="sourcePoint" />
             <mxPoint x="357" y="462.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0iWPIHCjYhFMQeC12Vsf-107" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0iWPIHCjYhFMQeC12Vsf-89" target="0iWPIHCjYhFMQeC12Vsf-100">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="490" as="sourcePoint" />
+            <mxPoint x="560" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
